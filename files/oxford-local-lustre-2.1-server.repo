@@ -7,5 +7,5 @@ baseurl=http://pplxconfig2.physics.ox.ac.uk/mirrors/oxford-local-lustre-server-2
 enabled=1
 protect=1
 gpgcheck=0
-priority=3
+priority=2
 
