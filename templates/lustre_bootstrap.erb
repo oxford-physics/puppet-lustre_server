@@ -1,0 +1,5 @@
+#!/bin/bash
+yum -y erase kernel-firmware
+dracut --force /boot/initramfs-<%= @kkernelversion %>.img <%= @kkernelversion %>
+grubby  --add-kernel /boot/vmlinuz-<%= @kkernelversion %>  --copy-default  --title "Lustre oxford kernel" --initrd /boot/initramfs-<%= @kkernelversion %>.img
+yum -y install lustre-modules kernel-firmware lustre

@@ -1,0 +1,17 @@
+[oxford-local-lustre-server]
+name=Oxford copy of lustre server packages
+baseurl=http://mirror.physics.ox.ac.uk/mirrors/oxford-local-lustre-server-2_5/el6/server/RPMS/$basearch
+enabled=1
+protect=1
+gpgcheck=0
+priority=2
+
+[e2fsprogs-l25]
+name=Oxford copy of the e2fsprogs current at l2.5.2
+baseurl=http://mirror.physics.ox.ac.uk/mirrors/oxford-local-lustre-server-2_5/el6/e2fsprogs/RPMS/$basearch
+enabled=1
+protect=1
+gpgcheck=0
+priority=2
+
+

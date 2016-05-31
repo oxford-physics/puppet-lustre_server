@@ -1,7 +1,7 @@
 #anything I rebuild
-[oxford-local-lustre-server-oxonly]
+[oxford-local-lustre-server-patch]
 name=Oxford copy of lustre server packages
-baseurl=http://mirror.physics.ox.ac.uk/mirrors/oxford-local-lustre-server-oxonly/el6/server/RPMS/$basearch
+baseurl=http://mirror.physics.ox.ac.uk/mirrors/oxford-local-lustre-server-testing-allmine/el6/server/RPMS/$basearch
 enabled=1
 protect=1
 gpgcheck=0
@@ -10,7 +10,7 @@ priority=1
 #All the stuff from whamcloud and intel
 [oxford-local-lustre-server-distcomplement]
 name=Oxford copy of lustre server packages
-baseurl=http://mirror.physics.ox.ac.uk/mirrors/oxford-local-lustre-server-distcomplement/el6/server/RPMS/$basearch
+baseurl=http://mirror.physics.ox.ac.uk/mirrors/oxford-local-lustre-server-testing-distcomplement/el6/server/RPMS/$basearch
 enabled=1
 protect=1
 gpgcheck=0
