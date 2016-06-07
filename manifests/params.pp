@@ -7,8 +7,6 @@ class lustre_server::params (
     $kernelsuffix   =  hiera("lustre_server::params::kernelsuffix","")  ,
     $mdt          =  hiera("lustre_server::params::mdt",false) , 
     $repo         =  hiera("lustre_server::params::repo","default")  ,
-
->>>>>>> 5593fcab458a6828b95cab957d623382a79cd333
 )
 {   
 }
